@@ -34,4 +34,3 @@ const popular_games = `games?dates=${lastYear},${currentDate}&ordering=-rating&p
 
 export const popularGamesURL = () => `${base_url}${popular_games}`;
 
-console.log(popularGamesURL());
